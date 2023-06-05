@@ -1,0 +1,63 @@
+{
+  "name": "ebt-site3",
+  "version": "1.0.0",
+  "description": "EBT-Vue3 site template",
+  "main": "src/index.mjs",
+  "private": false,
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "compression": "^1.7.4",
+    "ebt-vue3": "^1.220.4",
+    "idb-keyval": "^6.2.0",
+    "log-instance": "^1.3.0",
+    "merkle-json": "^2.6.0",
+    "pinia": "^2.0.16",
+    "roboto-fontface": "*",
+    "scv-esm": "^1.61.287",
+    "serve-favicon": "^2.5.0",
+    "uuid": "^9.0.0",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.5",
+    "vuetify": "^3.3.2",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "cmark-gfm": "^0.9.0",
+    "esm": "^3.2.25",
+    "json": "^11.0.0",
+    "memo-again": "^0.6.0",
+    "vite": "^2.9.14",
+    "vite-plugin-vuetify": "^1.0.0-alpha.0",
+    "vue-cli-plugin-vuetify": "~2.5.1"
+  },
+  "scripts": {
+    "version": "scripts/version.sh",
+    "dev": "vite",
+    "serve": "vite preview",
+    "build:dist": "scripts/build-dist.sh",
+    "build:html": "scripts/build-html.sh",
+    "build:messages": "node scripts/build-messages.mjs > src/auto/messages.mjs",
+    "build:docker": "scripts/build-docker.sh",
+    "preview": "vite preview",
+    "vite": "vite",
+    "vite:build": "vite build",
+    "gh-pages": "scripts/gh-pages.sh",
+    "push-action": "scripts/push-action",
+    "schedule-action": "scripts/schedule-action"
+  },
+  "repository": {
+    "tag": "git"
+  },
+  "bin": {},
+  "keywords": [
+    "SuttaCentral",
+    "translation",
+    "EBT-Vue3",
+    "Voice"
+  ],
+  "author": "Karl Lew",
+  "homepage": "https://github.com/ebt-site/ebt-site3",
+  "license": "MIT"
+}
