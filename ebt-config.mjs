@@ -1,4 +1,5 @@
 const EbtConfig = {
+  "appName": "EBT-Site3",
   "basePath": "/ebt-site3/",
   "homePath": "#/wiki/welcome",
   "content": {
