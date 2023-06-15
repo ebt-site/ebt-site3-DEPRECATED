@@ -30,7 +30,7 @@
     "vite:build": "vite build",
     "git:commit": "node_modules/ebt-vue3/scripts/git-commit.sh",
     "gh-pages": "node_modules/ebt-vue3/scripts/gh-pages.sh",
-    "push-action": "scripts/push-action",
+    "push-action": "node_modules/ebt-vue3/scripts/push-action",
     "schedule-action": "scripts/schedule-action"
   },
   "repository": {
