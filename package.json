@@ -5,7 +5,7 @@
   "main": "src/index.mjs",
   "private": false,
   "dependencies": {
-    "ebt-vue3": "^1.238.0",
+    "ebt-vue3": "^1.241.0",
     "vue": "^3.2.37",
     "vuetify": "^3.3.3",
     "webfontloader": "^1.0.0"
@@ -25,12 +25,11 @@
     "serve": "vite preview",
     "build:dist": "node_modules/ebt-vue3/scripts/build-dist.sh",
     "build:html": "node_modules/ebt-vue3/scripts/build-html.sh",
-    "build:messages": "node scripts/build-messages.mjs > src/auto/messages.mjs",
-    "build:docker": "scripts/build-docker.sh",
     "preview": "vite preview",
     "vite": "vite",
     "vite:build": "vite build",
-    "gh-pages": "scripts/gh-pages.sh",
+    "git:commit": "node_modules/ebt-vue3/scripts/git-commit.sh",
+    "gh-pages": "node_modules/ebt-vue3/scripts/gh-pages.sh",
     "push-action": "scripts/push-action",
     "schedule-action": "scripts/schedule-action"
   },
