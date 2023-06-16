@@ -20,7 +20,6 @@ Create your own EBT-Vue3 website:
 1. Commit your new content
 1. View your new website
 
-
 ## Custom content
 
 Custom content is located in the ```content folder```.
@@ -33,7 +32,7 @@ content/welcome.md
 ```
 
 ## Content channels
-Organize your Markdown files into sub-directories of related content.
+Organize your Markdown files into sub-folders of related content.
 Each content sub-directory is known as a _channel_.
 
 For example, here is a channel of related EBT sites:
