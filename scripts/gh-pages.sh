@@ -37,10 +37,14 @@ echo -e "$SCRIPT: copying new content"
 cp -r dist/* .
 ls -l
 
-echo -e "$SCRIPT: updating github"
+echo -e "$SCRIPT: git add"
+git config advice.addIgnoredFile false
 git add .
+echo -e "$SCRIPT: git commit"
 git commit -m "gh-pages"
+echo -e "$SCRIPT: git push"
 git push
+echo -e "$SCRIPT: github updated"
 git checkout main
 
 echo -e "$SCRIPT END"
