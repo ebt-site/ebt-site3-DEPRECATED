@@ -14,6 +14,7 @@ git checkout main
 git status | grep "up to date"; RC=$?
 set -e # exit on error
 if [ "$RC" != "0" ]; then
+  git stastus
   echo "$SCRIPT: ERROR: local changes have not been pushed"
   exit 1
 fi
