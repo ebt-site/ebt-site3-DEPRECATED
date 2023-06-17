@@ -1,6 +1,6 @@
 {
   "name": "ebt-site3",
-  "version": "1.11.0",
+  "version": "1.14.1",
   "description": "Site template for EBT-Vue3 applications",
   "main": "src/index.mjs",
   "private": false,
@@ -28,7 +28,7 @@
     "preview": "vite preview",
     "vite": "vite",
     "vite:build": "vite build",
-    "git:commit": "node_modules/ebt-vue3/scripts/git-commit.sh",
+    "git:commit": "scripts/git-commit.sh",
     "gh-pages": "scripts/gh-pages.sh",
     "push-action": "scripts/push-action",
     "schedule-action": "scripts/schedule-action"
