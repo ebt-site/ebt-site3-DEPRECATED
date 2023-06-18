@@ -20,7 +20,9 @@
     "vue-cli-plugin-vuetify": "~2.5.1"
   },
   "scripts": {
-    "version": "scripts/version.sh",
+    "app:version": "node scripts/app-version.cjs",
+    "app:commit": "scripts/app-commit.sh",
+    "app:publish": "scripts/app-publish.sh",
     "dev": "vite",
     "serve": "vite preview",
     "build:dist": "node_modules/ebt-vue3/scripts/build-dist.sh",
@@ -28,7 +30,6 @@
     "preview": "vite preview",
     "vite": "vite",
     "vite:build": "vite build",
-    "git:commit": "scripts/git-commit.sh",
     "gh-pages": "scripts/gh-pages.sh",
     "push-action": "scripts/push-action",
     "schedule-action": "scripts/schedule-action"
