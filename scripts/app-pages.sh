@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
-DIR=`dirname $0`
 SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
-SCRIPT=`basename $0`
 
 echo -e "$SCRIPT: BEGIN"
 

@@ -1,6 +1,7 @@
 #!/bin/bash
-DIR=`dirname $0`
 SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+
+echo -e "$SCRIPT: BEGIN"
 
 if [ ! -e 'package.json' ]; then
   echo -e "$SCRIPT: package.json not found in current folder (ERROR)"
@@ -30,3 +31,5 @@ else
   echo $SCRIPT: skipping npm update
   exit 0
 fi
+
+echo -e "$SCRIPT: END"
