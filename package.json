@@ -26,6 +26,7 @@
     "app:pages": "node_modules/ebt-vue3/scripts/app-pages.sh",
     "app:publish": "node_modules/ebt-vue3/scripts/app-publish.sh",
     "app:version": "node node_modules/ebt-vue3/scripts/app-version.cjs",
+    "app:pages": "node node_modules/ebgt-vue3/scripts/gh-pages.cjs",
     "dev": "vite",
     "serve": "vite preview",
     "preview": "vite preview",

@@ -14,6 +14,6 @@ npm install
 npm run app:dist
 npm run app:html
 npm run app:commit 
-npm run gh-pages
+npm run app:pages
 
 echo -e "${SCRIPT}: END `date`"
