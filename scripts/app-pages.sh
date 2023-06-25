@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 
-echo -e "$SCRIPT: BEGIN"
+echo -e "$SCRIPT: BEGIN `date`"
 
 if [ ! -e 'package.json' ]; then
   echo -e "$SCRIPT: package.json not found in current folder (ERROR)"
@@ -18,7 +18,7 @@ if [ "$RC" != "0" ]; then
 fi
 
 echo -e "$SCRIPT: generating static build..."
-npm run build:dist
+npm run app:dist
 
 echo -e "$SCRIPT git checkout gh-pages"
 git checkout gh-pages; git pull
@@ -46,4 +46,4 @@ git push
 echo -e "$SCRIPT: github updated"
 git checkout main
 
-echo -e "$SCRIPT END"
+echo -e "$SCRIPT: END `date`"

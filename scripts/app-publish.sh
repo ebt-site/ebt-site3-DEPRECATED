@@ -1,7 +1,7 @@
 #!/bin/bash
 SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 
-echo -e "$SCRIPT: BEGIN"
+echo -e "$SCRIPT: BEGIN `date`"
 
 if [ ! -e 'package.json' ]; then
   echo -e "$SCRIPT: package.json not found in current folder (ERROR)"
@@ -20,4 +20,4 @@ else
   npm publish
 fi
 
-echo -e "$SCRIPT: END"
+echo -e "$SCRIPT: END `date`"
