@@ -11,8 +11,8 @@ git pull
 echo -e "${SCRIPT}: updating dependencies..."
 npm install 
 
-npm run build:dist
-npm run build:html
+npm run app:dist
+npm run app:html
 npm run app:commit 
 npm run gh-pages
 
