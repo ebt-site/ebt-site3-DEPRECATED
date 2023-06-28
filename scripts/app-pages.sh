@@ -12,7 +12,7 @@ git checkout main
 git status | grep "up to date"; RC=$?
 set -e # exit on error
 if [ "$RC" != "0" ]; then
-  git stastus
+  git status
   echo "$SCRIPT: ERROR: local changes have not been pushed"
   exit 1
 fi
@@ -37,7 +37,6 @@ cp -r dist/* .
 ls -l
 
 echo -e "$SCRIPT: git add"
-git config advice.addIgnoredFile false
 git add .
 echo -e "$SCRIPT: git commit"
 git commit -m "gh-pages"
