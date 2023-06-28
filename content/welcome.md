@@ -39,4 +39,4 @@ For example, here is a channel of related EBT sites:
 
 * [Sites](#/wiki/sites/toc)
 
-Tue Jun 27 08:00:59 AM PDT 2023
+Wed June 28 Karl 7:17AM
