@@ -1,5 +1,5 @@
 ---
-title: EBT-Site3
+title: EBT-Vue3
 description: Create your own EBT website
 detail: Author your content using Markdown files
 detail: Specify default language
@@ -11,9 +11,9 @@ img-alt: ebt-site image
 order: 3
 ---
 
-### EBT-Site3
+### EBT-Vue3
 
-EBT-Site3 is the front-end development framework used by:
+EBT-Vue3 is the front-end development framework used by:
 
 * [voice.suttacentral.net](https://voice.suttacentral.net)
 * [sc-voice.net](https://sc-voice.net)
@@ -22,6 +22,6 @@ EBT-Site3 is the front-end development framework used by:
 The framework supports the creation of custom websites
 based on the Early Buddhist Texts (EBTs) sourced
 from [SuttaCentral](https://suttacentral.net).
-Websites that use the EBT-Site3 framework 
+Websites that use the EBT-Vue3 framework 
 are customized with Markdown files as desired.
 
