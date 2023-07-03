@@ -1,5 +1,5 @@
 const EbtConfig = {
-  "appName": "EBT-Site3",
+  "appName": "en.sc-voice.net",
   "basePath": "/ebt-site3/",
   "homePath": "#/wiki/welcome",
   "content": {
