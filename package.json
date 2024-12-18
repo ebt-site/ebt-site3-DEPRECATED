@@ -7,7 +7,7 @@
   "dependencies": {
     "ebt-vue3": "^1.504.185",
     "vue": "^3.2.37",
-    "vuetify": "^3.7.5",
+    "vuetify": "^3.7.6",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
